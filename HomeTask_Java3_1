@@ -1,0 +1,33 @@
+package org.example;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class HomeTask1 {
+    public static void main(String[] args){
+        ArrayList<String> list = new ArrayList<>();
+        list.add("String");
+        list.add("s");
+        list.add("5");
+        list.add("10");
+        list.add("-12");
+        list.add("my_value");
+
+        Iterator iterator = list.iterator();
+        iterator.next();
+        iterator.next();
+        iterator.next();
+        iterator.remove();
+        iterator.next();
+        iterator.remove();
+        iterator.next();
+        iterator.remove();
+        iterator.next();
+
+
+        System.out.println(list);
+
+
+
+    }
+}
